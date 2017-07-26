@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F7080401F21A6F5003F845E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70803F1F21A6F5003F845E /* AppDelegate.swift */; };
+		3F7080421F21A6F5003F845E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7080411F21A6F5003F845E /* ViewController.swift */; };
+		3F7080451F21A6F5003F845E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7080431F21A6F5003F845E /* Main.storyboard */; };
+		3F7080471F21A6F5003F845E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7080461F21A6F5003F845E /* Assets.xcassets */; };
+		3F70804A1F21A6F5003F845E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7080481F21A6F5003F845E /* LaunchScreen.storyboard */; };
+		3F7080521F21A712003F845E /* YYJWaveProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7080511F21A712003F845E /* YYJWaveProgress.swift */; };
+		3F7080541F21F77D003F845E /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7080531F21F77D003F845E /* github.png */; };
+		3F7080581F21FC04003F845E /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7080571F21FC04003F845E /* twitter.png */; };
+		3F70805D1F22015A003F845E /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F70805A1F22015A003F845E /* qq.png */; };
+		3F70805E1F22015A003F845E /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F70805B1F22015A003F845E /* wechat.png */; };
+		3FA32F171F257D4600C66EE7 /* sina.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA32F161F257D4600C66EE7 /* sina.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F70803C1F21A6F5003F845E /* YYJWaveProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYJWaveProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F70803F1F21A6F5003F845E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7080411F21A6F5003F845E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F7080441F21A6F5003F845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7080461F21A6F5003F845E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7080491F21A6F5003F845E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F70804B1F21A6F5003F845E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7080511F21A712003F845E /* YYJWaveProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYJWaveProgress.swift; sourceTree = "<group>"; };
+		3F7080531F21F77D003F845E /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		3F7080571F21FC04003F845E /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		3F70805A1F22015A003F845E /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		3F70805B1F22015A003F845E /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat.png; sourceTree = "<group>"; };
+		3FA32F161F257D4600C66EE7 /* sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sina.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7080391F21A6F5003F845E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7080331F21A6F5003F845E = {
+			isa = PBXGroup;
+			children = (
+				3F70803E1F21A6F5003F845E /* YYJWaveProgress */,
+				3F70803D1F21A6F5003F845E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F70803D1F21A6F5003F845E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F70803C1F21A6F5003F845E /* YYJWaveProgress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F70803E1F21A6F5003F845E /* YYJWaveProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3FA32F161F257D4600C66EE7 /* sina.png */,
+				3F70805A1F22015A003F845E /* qq.png */,
+				3F70805B1F22015A003F845E /* wechat.png */,
+				3F7080571F21FC04003F845E /* twitter.png */,
+				3F7080531F21F77D003F845E /* github.png */,
+				3F70803F1F21A6F5003F845E /* AppDelegate.swift */,
+				3F7080411F21A6F5003F845E /* ViewController.swift */,
+				3F7080511F21A712003F845E /* YYJWaveProgress.swift */,
+				3F7080431F21A6F5003F845E /* Main.storyboard */,
+				3F7080461F21A6F5003F845E /* Assets.xcassets */,
+				3F7080481F21A6F5003F845E /* LaunchScreen.storyboard */,
+				3F70804B1F21A6F5003F845E /* Info.plist */,
+			);
+			path = YYJWaveProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F70803B1F21A6F5003F845E /* YYJWaveProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F70804E1F21A6F5003F845E /* Build configuration list for PBXNativeTarget "YYJWaveProgress" */;
+			buildPhases = (
+				3F7080381F21A6F5003F845E /* Sources */,
+				3F7080391F21A6F5003F845E /* Frameworks */,
+				3F70803A1F21A6F5003F845E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYJWaveProgress;
+			productName = YYJWaveProgress;
+			productReference = 3F70803C1F21A6F5003F845E /* YYJWaveProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7080341F21A6F5003F845E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yyj;
+				TargetAttributes = {
+					3F70803B1F21A6F5003F845E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7CWWC3TVU2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F7080371F21A6F5003F845E /* Build configuration list for PBXProject "YYJWaveProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F7080331F21A6F5003F845E;
+			productRefGroup = 3F70803D1F21A6F5003F845E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F70803B1F21A6F5003F845E /* YYJWaveProgress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F70803A1F21A6F5003F845E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7080541F21F77D003F845E /* github.png in Resources */,
+				3F70805E1F22015A003F845E /* wechat.png in Resources */,
+				3FA32F171F257D4600C66EE7 /* sina.png in Resources */,
+				3F70805D1F22015A003F845E /* qq.png in Resources */,
+				3F70804A1F21A6F5003F845E /* LaunchScreen.storyboard in Resources */,
+				3F7080471F21A6F5003F845E /* Assets.xcassets in Resources */,
+				3F7080581F21FC04003F845E /* twitter.png in Resources */,
+				3F7080451F21A6F5003F845E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7080381F21A6F5003F845E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7080521F21A712003F845E /* YYJWaveProgress.swift in Sources */,
+				3F7080421F21A6F5003F845E /* ViewController.swift in Sources */,
+				3F7080401F21A6F5003F845E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7080431F21A6F5003F845E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7080441F21A6F5003F845E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7080481F21A6F5003F845E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7080491F21A6F5003F845E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F70804C1F21A6F5003F845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F70804D1F21A6F5003F845E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F70804F1F21A6F5003F845E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CWWC3TVU2;
+				INFOPLIST_FILE = YYJWaveProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centit.yyj.YYJWaveProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F7080501F21A6F5003F845E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CWWC3TVU2;
+				INFOPLIST_FILE = YYJWaveProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centit.yyj.YYJWaveProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7080371F21A6F5003F845E /* Build configuration list for PBXProject "YYJWaveProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F70804C1F21A6F5003F845E /* Debug */,
+				3F70804D1F21A6F5003F845E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F70804E1F21A6F5003F845E /* Build configuration list for PBXNativeTarget "YYJWaveProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F70804F1F21A6F5003F845E /* Debug */,
+				3F7080501F21A6F5003F845E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7080341F21A6F5003F845E /* Project object */;
+}
